@@ -2,8 +2,7 @@
   "name": "test-test",
   "main": "test-test.html",
   "dependencies": {
-    "polymer": "Polymer/polymer#^1.7.0",
-    "wc-library": "git@gitlab.host-h.net:wc/wc-library.git#master"
+    "polymer": "Polymer/polymer#^1.7.0"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#^4.3.1"

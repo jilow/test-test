@@ -12,7 +12,7 @@ This project requires **[npm](https://www.npmjs.com/)** and **[bower](https://bo
 $ npm install && bower update
 ```
 
-### Run 
+### Run
 
 ```bash
 $ npm start

@@ -1,0 +1,19 @@
+{
+  "name": "test-test",
+  "description": "",
+  "version": "0.0.1",
+  "author": "",
+  "license": "MIT",
+  "main": "test-test.html",
+  "scripts": {
+    "start": "wc-server -n -s -p 8080",
+    "test": "wct",
+    "build": "rm -R -f dist && mkdir dist && npm run vulcanize",
+    "vulcanize": "vulcanize --strip-comments test-test.html --exclude bower_components/polymer/polymer.html --exclude bower_components/webcomponentsjs/webcomponentsjs.js --out-html dist/test-test.html"
+  },
+  "dependencies": {
+    "wc-server": "git+ssh://git@gitlab.host-h.net:wc/wc-server.git#master",
+    "web-component-tester": "^4.3.1",
+    "vulcanize": "^1.14.8"
+  }
+}

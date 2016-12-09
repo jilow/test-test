@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jilow/test-test.svg?branch=master)](https://travis-ci.org/jilow/test-test)
+
 # <test-test>
 
 `test-test` is a standalone web-app built with [Polymer](https://www.polymer-project.org/).
